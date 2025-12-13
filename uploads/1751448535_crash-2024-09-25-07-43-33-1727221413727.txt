@@ -1,0 +1,39 @@
+------------------------start------------------------------
+BOARD=C05
+CPU_ABI2=armeabi
+HOST=b317e6940279
+versionName=10.29.00
+IS_TREBLE_ENABLED=true
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@9e5ec4b
+CPU_ABI=armeabi-v7a
+PERMISSIONS_REVIEW_REQUIRED=true
+IS_USERDEBUG=false
+DISPLAY=AR2101
+SUPPORTED_ABIS=[Ljava.lang.String;@1e6a628
+FINGERPRINT=TCL/G05_4K_GB/G05:11/AR2101/AR25:user/release-keys
+PRODUCT=G05_4K_GB
+ID=AR2101
+TYPE=user
+SERIAL=unknown
+IS_CONTAINER=false
+IS_ENG=false
+DEVICE=G05
+TIME=1714282103000
+IS_USER=true
+MODEL=Smart TV Pro
+MANUFACTURER=TCL
+USER=root
+versionCode=102900
+BRAND=TCL
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@49b91a
+HARDWARE=mt5889
+IS_DEBUGGABLE=false
+BOOTLOADER=01.01.240428
+RADIO=unknown
+TAG=Build
+UNKNOWN=unknown
+IS_EMULATOR=false
+TAGS=release-keys
+java.lang.NullPointerException: Attempt to invoke interface method 'java.util.Iterator java.util.Set.iterator()' on a null object reference
+	at com.tcl.ttvs.bluetooth.core.RcuBatteryService$c.handleMessage(RcuBatteryService.java:13)
+	at android
