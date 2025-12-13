@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id']) || !$_SESSION['is_admin']) {
 }
 
 // 資料庫連線
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 // 確認有帶入檔案 ID

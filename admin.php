@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id']) || !$_SESSION['is_admin']) {
     exit;
 }
 
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 if ($conn->connect_error) {
     die("資料庫連線失敗：" . $conn->connect_error);
 }

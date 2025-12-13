@@ -1,6 +1,6 @@
 <?php
 // 建立資料庫連線
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 // 管理員帳號資料

@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 $recaptcha_secret = '6LeaGXYrAAAAALUVfPQUxNN1mMvWPE7K7LRqkrDB';

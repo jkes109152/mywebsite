@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit('Unauthorized');
 }
 
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 $sender_id = $_SESSION['user_id'];

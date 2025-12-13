@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // === 資料庫連線設定 ===
-$db_host = 'localhost';
+$db_host = 'db';
 $db_user = 'root';
 $db_pass = '1024';
 $db_name = 'cloud_drive';

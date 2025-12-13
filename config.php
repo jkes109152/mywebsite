@@ -1,6 +1,6 @@
 <?php
 // config.php
-$db_host = 'localhost';
+$db_host = 'db';
 $db_user = 'root'; 
 $db_pass = '1024'; 
 $db_name = 'cloud_drive';

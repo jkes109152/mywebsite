@@ -9,7 +9,7 @@ if (!isset($_GET['id'])) {
     die("參數錯誤");
 }
 
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 if ($conn->connect_error) {
     die("資料庫連線錯誤：" . $conn->connect_error);
 }

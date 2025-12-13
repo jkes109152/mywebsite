@@ -2,7 +2,7 @@
 session_start();
 
 // --- 0. 資料庫連線配置 (請務必在生產環境中保護這些憑證) ---
-$db_host = 'localhost';
+$db_host = 'db';
 $db_user = 'root'; 
 $db_pass = '1024'; 
 $db_name = 'cloud_drive';

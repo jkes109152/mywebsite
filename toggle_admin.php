@@ -14,7 +14,7 @@ if (!isset($_GET['id'])) {
 
 $user_id = intval($_GET['id']);
 
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 // 防止操作自己帳號

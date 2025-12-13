@@ -15,7 +15,7 @@ if (!isset($_GET['id'])) {
 $user_id = intval($_GET['id']);
 $new_password = password_hash("1234", PASSWORD_DEFAULT);
 
-$conn = new mysqli('localhost', 'root', '1024', 'cloud_drive');
+$conn = new mysqli('db', 'root', '1024', 'cloud_drive');
 $conn->set_charset("utf8");
 
 $stmt = $conn->prepare("UPDATE users SET password = ? WHERE id = ?");
